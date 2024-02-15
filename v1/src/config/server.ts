@@ -1,4 +1,4 @@
 import dotenv from 'dotenv'
 
-export const config = () => dotenv.config()
+export const configENV = () => dotenv.config()
  

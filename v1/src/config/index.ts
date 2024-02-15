@@ -1,3 +1,7 @@
-import {config} from "./server"
+import {configENV} from "./server"
+import connectDB from "./db"
 
-export default config
+export const config = () => {
+   configENV()
+   connectDB()
+}
